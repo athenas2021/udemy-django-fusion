@@ -2,9 +2,9 @@ from django.db import models
 from stdimage.models import StdImageField
 
 class Base(models.Model):
-    criados = models.DateTimeField('Criação', auto_now_add=True)
-    modificado = models.DateField('Atualização', auto_now=True)
-    ativo = models.BooleanField('Ativo', default=True)
+    created = models.DateTimeField('Created at', auto_now_add=True)
+    updated = models.DateField('Updated at', auto_now=True)
+    status = models.BooleanField('Status', default=True)
 
     class Meta:
         abstract = True
