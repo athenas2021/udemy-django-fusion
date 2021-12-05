@@ -130,3 +130,6 @@ dmypy.json
 
 # Media files
 media/
+
+# Coverage files
+htmlcov/*
