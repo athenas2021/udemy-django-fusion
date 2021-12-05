@@ -1,8 +1,10 @@
 asgiref==3.4.1
+coverage==6.2 # avalia o que deve ser testado
 dj-static==0.0.6
 Django==3.2.9
 django-stdimage==5.3.0
 gunicorn==20.1.0
+model-mommy==2.0.0 # gera modelos aleatorios para testes
 Pillow==8.4.0
 psycopg2-binary==2.9.2
 pytz==2021.3
